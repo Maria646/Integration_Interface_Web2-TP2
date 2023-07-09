@@ -3,174 +3,173 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Sass/style.css">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
      <script src="https://cdn.tailwindcss.com"></script>
     <title>Acceuil</title>
 </head>
 <body>
-    <section class="px-10 py-20">
-        <div class=" w-4/5 ml-auto mr-auto container-fuild grid grid-cols-12 items-center gap-20">
-            <div class="col-span-6">
-                <h1 class="m-3">Titre</h1>
-                <p class="m-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi non eaque saepe at alias reiciendis sit accusamus consequatur itaque fugit? Fuga aspernatur repellendus, natus impedit hic laudantium dolore minima asperiores!</p>
-                <div class="container-fuild grid grid-cols-2">
-                    <button class="col-span-2 sm:col-span-1 border-2 bg-white ">Button 1</button>
-                    <button class="col-span-2 sm:col-span-1 border-2 bg-white ">Button 2</button>
+    <section class="banner">
+        <div class="banner__container w-4/5 ml-auto mr-auto">
+            <div class="banner__grid container-fuild grid grid-cols-6 items-center justify-center gap-20">
+              <div class="banner__spanOne col-span-6 sm:col-span-3 ">
+                  <h1 class="">Titre</h1>
+                  <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi non eaque saepe at alias reiciendis sit accusamus consequatur itaque fugit? Fuga aspernatur repellendus, natus impedit hic laudantium dolore minima asperiores!</p>
+                <div class="banner__spanTwoGrid container-fuild grid grid-cols-2">
+                    <button class="col-span-2 sm:col-span-1 border-2">Button 1</button>
+                    <button class="col-span-2 sm:col-span-1 border-2 ">Button 2</button>
                 </div>
-            </div>
-        <div class="col-span-6  h-96 ">
-                <!-- This is an example component -->
-            <div class="max-w-2xl mx-auto">
-
-	        <div id="default-carousel" class="relative" data-carousel="slide">
-        <!-- Carousel wrapper -->
-            <div class="overflow-hidden relative h-56 rounded-lg sm:h-64 xl:h-80 2xl:h-96">
+              </div>
+            <div class="col-span-6 sm:col-span-3">
+              <div class="max-w-2xl mx-auto">
+	            <div id="default-carousel" class="relative" data-carousel="slide">
+                 <div class="overflow-hidden relative h-56 rounded-lg sm:h-64 xl:h-80 2xl:h-96">
             <!-- Item 1 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <span class="absolute top-1/2 left-1/2 text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 sm:text-3xl dark:text-gray-800">First Slide</span>
-                <img src="./Images/dvdtounant.jpg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
-            </div>
+                   <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <span class="absolute top-1/2 left-1/2 text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 sm:text-3xl dark:text-gray-800">First Slide</span>
+                     <img src="./Images/dvdtounant.jpg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                   </div>
             <!-- Item 2 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="./Images/coupleavecpopcorn.jpg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
-            </div>
+                  <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="./Images/coupleavecpopcorn.jpg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                  </div>
             <!-- Item 3 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="./Images/filmavenir.jpg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
-            </div>
+                  <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="./Images/filmavenir.jpg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                  </div>
             <!-- Item 4 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="./Images/coupleavecpopcorn.jpg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
-            </div>
+                  <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                   <img src="./Images/coupleavecpopcorn.jpg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                  </div>
             <!-- Item 4 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="./Images/centralcinema.jpg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
-            </div>
-        </div>
+                  <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                   <img src="./Images/centralcinema.jpg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                  </div>
+                 </div>
         <!-- Slider indicators -->
-        <div class="flex absolute bottom-5 left-1/2 z-30 space-x-3 -translate-x-1/2">
-            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 1" data-carousel-slide-to="0"></button>
-            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
-            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 1" data-carousel-slide-to="0"></button>
-            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-        </div>
-    </div>
+            <div class="flex absolute bottom-5 left-1/2 z-30 space-x-3 -translate-x-1/2">
+              <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+              <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+              <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+              <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+              <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+            </div>
+            </div>
 
     <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
-</div>
             </div>
         </div>
+        </div>
+        </div>
     </section>
-    <section class="px-10 py-20">
-        <div class="w-4/5 ml-auto mr-auto container-fuild grid grid-cols-12 justify-items-center px-10 py-20 "> 
-            <h2 class="col-span-12 col-start-6 col-end-8 m-10">Titre</h2>
-            <p class="col-span-12 col-start-1 col-end-12 m-10 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. expedita</p>
-            <div class="col-span-12 col-start-3 col-end-11 container-fuild grid grid-cols-3 gap-4">
-                <div class="col-span-3 sm:col-span-1">
+    <section class="">
+        <div class="w-4/5 ml-auto mr-auto text-center"> 
+            <h2 class="">Titre</h2>
+            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. expedita</p>
+            <div class="container-fuild grid grid-cols-12 gap-4">
+                <div class="col-span-12 sm:col-start-5 sm:col-end-6">
                     <img src="./Images/coupleasiatiquecinema.jpg" alt="" class="">
                 </div>
-                <div class="col-span-3 sm:col-span-1">
+                <div class="col-span-12 sm:col-start-5 sm:col-end-6">
                     <img src="./Images/bannercinema.jpg" alt="" class="">
                 </div>
-                <div class="col-span-3 sm:col-span-1">
+                <div class="col-span-12 sm:col-start-5 sm:col-end-6">
                     <img src="./Images/coupleasiatiquecinema.jpg" alt="" class="">
                 </div>
             </div>
-            <video class="col-span-12 mt-10 w-4/5" autoplay controls>
+            <video class="mt-10 ml-auto mr-auto w-10/12" autoplay controls>
                 <source src="./Images/video1.mp4" type="video/mp4">
               </video>
         </div>
     </section>
-    <section class="px-10 py-20">
-        <div class="border border-red-500 w-4/5 ml-auto mr-auto">
-            <h1>Titre</h1>
+    <section class="">
+        <div class="w-4/5 ml-auto mr-auto">
+            <h2>Titre</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque officiis expedita quia consequuntur delectus, nihil dolorem, natus saepe quidem harum maxime assumenda eius architecto. Accusamus animi esse eos quae beatae?</p>
-            <div class="border border-cyan-500 container-fuild grid grid-cols-4 ">
-                <div class="border border-blue-500 col-span-4 sm:col-span-2 xl:col-span-1">
-                    <img class="border border-purple-500 h-24 object-center" src="./Images/centralcinema.jpg" alt="">
+            <div class="container-fuild grid grid-cols-4 gap-4 ">
+                <div class="col-span-4 sm:col-span-2 xl:col-span-1">
+                    <img class="w-50 h-60 rounded-lg" src="./Images/centralcinema.jpg" alt="">
                     <h3>Titre</h3>
                     <h4>Poste</h4>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod quos doloremque, blanditiis facere atque minus, a perspiciatis dolorum odio vel fugiat autem consectetur dolore repudiandae iure architecto laudantium harum eveniet.</p>
-                    <div class="border border-green-500">
+                    <div class="">
                         <i class="fab fa-facebook-square"></i>
                         <i class="fab fa-twitter"></i>
                         <i class="fab fa-instagram"></i>
                     </div>
                 </div>
-                <div class="border border-blue-500 col-span-4 sm:col-span-2 xl:col-span-1">
-                    <img class="border border-purple-500 h-24" src="./Images/coupleasiatiquecinema.jpg" alt="">
+                <div class="col-span-4 sm:col-span-2 xl:col-span-1">
+                    <img class="w-50 h-60 rounded-lg" src="./Images/coupleasiatiquecinema.jpg" alt="">
                     <h3>Titre</h3>
                     <h4>Poste</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur magni esse minima officia quasi optio recusandae corrupti possimus accusamus vitae ab adipisci, in, voluptatibus harum pariatur, molestias perferendis mollitia architecto.</p>
-                    <div class="border border-green-500">
+                    <div class="">
                         <i class="fab fa-facebook-square"></i>
                         <i class="fab fa-twitter"></i>
                         <i class="fab fa-instagram"></i>
                     </div>
                 </div>
-                <div class="border border-blue-500 col-span-4 sm:col-span-2 xl:col-span-1">
-                    <img class="border border-purple-500 h-24" src="./Images/coupleavecpopcorn.jpg" alt="">
+                <div class="col-span-4 sm:col-span-2 xl:col-span-1">
+                    <img class="w-50 h-60 rounded-lg" src="./Images/coupleavecpopcorn.jpg" alt="">
                     <h3>Titre</h3>
                     <h4>Poste</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quasi consectetur repudiandae quidem nam libero! Expedita tempora quod aspernatur aliquid, earum dolores illum beatae nobis sint praesentium doloribus nam cupiditate?</p>
-                    <div class="border border-green-500">
+                    <div class="">
                         <i class="fab fa-facebook-square"></i>
                         <i class="fab fa-twitter"></i>
                         <i class="fab fa-instagram"></i>
                     </div>
                 </div>
-                <div class="border border-blue-500 col-span-4 sm:col-span-2 xl:col-span-1">
-                    <img class="border border-purple-500 h-24" src="./Images/filleaucinema.jpg" alt="">
+                <div class="col-span-4 sm:col-span-2 xl:col-span-1">
+                    <img class="w-50 h-60 rounded-lg" src="./Images/filleaucinema.jpg" alt="">
                     <h3>Titre</h3>
                     <h4>Poste</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati non ad aliquam vitae adipisci dignissimos! Praesentium aperiam laborum veritatis, nisi illo quibusdam asperiores, suscipit deleniti tempora dolorem debitis sapiente repudiandae!</p>
-                    <div class="border border-green-500">
+                    <div class="">
                         <i class="fab fa-facebook-square"></i>
                         <i class="fab fa-twitter"></i>
                         <i class="fab fa-instagram"></i>
                     </div>
                 </div>
-                <div class="border border-blue-500 col-span-4 sm:col-span-2 xl:col-span-1">
-                    <img class="border border-purple-500 h-24" src="./Images/film.jpg" alt="">
+                <div class="col-span-4 sm:col-span-2 xl:col-span-1">
+                    <img class="w-50 h-60 rounded-lg" src="./Images/film.jpg" alt="">
                     <h3>Titre</h3>
                     <h4>Poste</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptates labore reprehenderit quibusdam repellat quisquam sit animi cum doloribus molestias optio nobis illum perspiciatis aliquam ipsam a qui, quam rerum.</p>
-                    <div class="border border-green-500">
+                    <div class="">
                         <i class="fab fa-facebook-square"></i>
                         <i class="fab fa-twitter"></i>
                         <i class="fab fa-instagram"></i>
                     </div>
                 </div>
-                <div class="border border-blue-500 col-span-4 sm:col-span-2 xl:col-span-1">
-                    <img class="border border-purple-500 h-24" src="./Images/dvdtounant.jpg" alt="">
+                <div class="col-span-4 sm:col-span-2 xl:col-span-1">
+                    <img class="w-50 h-60 rounded-lg" src="./Images/dvdtounant.jpg" alt="">
                     <h3>Titre</h3>
                     <h4>Poste</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet alias, neque voluptate reprehenderit repellendus officiis dolor doloremque debitis eius veniam! Quo ad labore adipisci architecto neque quis quia pariatur iusto.</p>
-                    <div class="border border-green-500">
+                    <div class="">
                         <i class="fab fa-facebook-square"></i>
                         <i class="fab fa-twitter"></i>
                         <i class="fab fa-instagram"></i>
                     </div>
                 </div>
-                <div class="border border-blue-500 col-span-4 sm:col-span-2 xl:col-span-1">
-                    <img class="border border-purple-500 h-24" src="./Images/filmavenir.jpg" alt="">
+                <div class="col-span-4 sm:col-span-2 xl:col-span-1">
+                    <img class="w-50 h-60 rounded-lg" src="./Images/filmavenir.jpg" alt="">
                     <h3>Titre</h3>
                     <h4>Poste</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima cum sint in, ipsam labore reprehenderit atque voluptate veniam placeat. Iusto eos illum alias aliquid perspiciatis temporibus, porro laborum tempore. Iste.</p>
-                    <div class="border border-green-500">
+                    <div class="">
                         <i class="fab fa-facebook-square"></i>
                         <i class="fab fa-twitter"></i>
                         <i class="fab fa-instagram"></i>
                     </div>
                 </div>
-                <div class="border border-blue-500 col-span-4 sm:col-span-2 xl:col-span-1">
-                    <img class="border border-purple-500 h-24" src="./Images/film.jpg" alt="">
+                <div class="col-span-4 sm:col-span-2 xl:col-span-1">
+                    <img class="w-50 h-60 rounded-lg" src="./Images/film.jpg" alt="">
                     <h3>Titre</h3>
                     <h4>Poste</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, at repudiandae obcaecati quidem eveniet quo, corporis fugit mollitia deserunt nobis tempora animi eius magnam. Error ducimus enim praesentium nemo atque.</p>
-                    <div class="border border-green-500">
+                    <div class="">
                         <i class="fab fa-facebook-square"></i>
                         <i class="fab fa-twitter"></i>
                         <i class="fab fa-instagram"></i>
@@ -179,37 +178,37 @@
             </div>
         </div>
     </section>
-    <section class="px-10 py-20">
-        <div class="border border-red-500 w-4/5 ml-auto mr-auto">
-            <div class=" border border-blue-500 container-fuild grid grid-cols-2">
-                <img class="border border-yellow-500 col-span-2 md:col-span-1" src="./Images/femme.jpg" alt="">
-                <p class="col-span-2 md:col-span-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam adipisci aliquam eaque aspernatur ut aperiam aut, sit doloremque nisi quas nulla quos repudiandae dolor earum natus quaerat fugit culpa minima!</p>
+    <section class="">
+        <div class="w-4/5 ml-auto mr-auto">
+            <div class="container-fuild grid grid-cols-2 gap-4 items-center justify-center">
+                <img class="col-span-2 md:col-span-1" src="./Images/filmavenir.jpg" alt="">
+                <p class="col-span-2 md:col-span-1 ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam adipisci aliquam eaque aspernatur ut aperiam aut, sit doloremque nisi quas nulla quos repudiandae dolor earum natus quaerat fugit culpa minima!</p>
             </div>
-            <div class=" border border-blue-500 container-fuild grid grid-cols-2">
+            <div class="container-fuild grid grid-cols-2 gap-4 items-center justify-center">
                 <p class="col-span-2 md:col-span-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam adipisci aliquam eaque aspernatur ut aperiam aut, sit doloremque nisi quas nulla quos repudiandae dolor earum natus quaerat fugit culpa minima!</p>
-                <img class="border border-yellow-500 col-span-2 md:col-span-1 " src="./Images/filleaucinema.jpg" alt="">
+                <img class="col-span-2 md:col-span-1 " src="./Images/filleaucinema.jpg" alt="">
             </div>
-            <div class=" border border-blue-500 container-fuild grid grid-cols-2">
-                <img class="border border-yellow-500 col-span-2 md:col-span-1" src="./Images/filmavenir.jpg" alt="">
+            <div class="container-fuild grid grid-cols-2 gap-4 items-center justify-center">
+                <img class="col-span-2 md:col-span-1" src="./Images/filmavenir.jpg" alt="">
                 <p class="col-span-2 md:col-span-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam adipisci aliquam eaque aspernatur ut aperiam aut, sit doloremque nisi quas nulla quos repudiandae dolor earum natus quaerat fugit culpa minima!</p>
             </div>
         </div>
     </section>
-    <footer class="px-10 py-20">
-        <div class="">
-            <div class="border border-yellow-500 container-fuild grid grid-cols-4">
-                <div class="border border-green-500 col-span-4 md:col-span-1">
+    <footer class="">
+        <div class="w-11/12 ml-auto mr-auto text-center">
+            <div class="container-fuild grid grid-cols-4">
+                <div class="col-span-4 md:col-span-1">
                     <i></i>
-                    <h6>647-379-2384</h6>
+                    <h5>647-379-2384</h5>
                 </div>
-                <div class="border border-blue-500 col-span-4 md:col-span-1">
+                <div class="col-span-4 md:col-span-1">
                     <i></i>
-                    <h6><a href="">diabymariama414@gmail.com</a></h6>
+                    <h5><a href="">diabymariama414@gmail.com</a></h5>
                 </div>
-                <div class="border border-red-500 col-span-4 md:col-span-1">
+                <div class="col-span-4 md:col-span-1">
                     <h5>Mariama Diaby & Didy Toure</h5>
                 </div>
-                <div class="border border-purple-500 ">
+                <div class="col-span-4 md:col-span-1">
                     <i class="fab fa-facebook-square"></i>
                     <i class="fab fa-twitter"></i>
                     <i class="fab fa-instagram"></i>
