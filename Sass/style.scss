@@ -2,7 +2,7 @@
 @mixin typoBoby ($font-family) {
     font-family: $font-family;
   }
-@mixin paddings ($padding-top, $padding-bottom, $padding-lefth, $padding-right,) {
+@mixin paddings ($padding-top, $padding-bottom, $padding-left, $padding-right) {
     padding-top: $padding-top;
     padding-bottom: $padding-bottom;
     padding-left: $padding-left;
@@ -50,11 +50,13 @@
     color: $color;
   }
 
-@mixin buttons ($colorBackground, $color, $font-size, $width) {
+@mixin buttons ($colorBackground, $color, $font-size, $width, $border, $border-radius) {
     background-color: $colorBackground;
     color: $color;
     font-size: $font-size;
     width: $width;
+    border: $border;
+    border-radius: $border-radius;
   }
 
 @mixin margins ($margin-top, $margin-bottom, $margin-left, $margin-right) {
@@ -73,30 +75,46 @@ body{
         @include margins(0% , 0%, 0%, 0%);
     }
     button{
-        @include buttons(cyan , rgb(238, 238, 238), 15px, 100px);
+        @include buttons(rgba(156, 2, 2, 0.571) , rgb(238, 238, 238), 15px, 100px, none, 10px);
         @include margins(0px , 20px, 0px, 0px);
+        @include paddings(10px , 10px, 10px, 10px);
+        &:hover{
+          background-color: rgba(15, 15, 15, 0.836);
+        }
+    }
+    input{
+      @include paddings(10px , 10px, 10px, 10px);
+      border-radius: 5px;
+      background-color: rgba(156, 2, 2, 0.164);
+    }
+    i{
+      color: rgba(156, 2, 2, 0.571);
+      &:hover{
+        color: rgba(15, 15, 15, 0.836);
+      }
     }
     p{
         @include paragraphe( 15px, "arial", 400px, grey);
         @include margins(0px , 30px, 0px, 0px);
     }
     h1{
-        @include typoH1( 40px, "arial", 400px, rgb(238, 238, 238));
+        @include typoH1( 40px, "arial", 400px, rgb(54, 54, 54));
         @include margins(0px , 30px, 0px, 0px);
     }
     h2{
-        @include typoH2( 30px, "arial", 400px, rgb(238, 238, 238));
+        @include typoH2( 30px, "arial", 400px, rgb(54, 54, 54));
         @include margins(0px , 30px, 0px, 0px);
     }
     h3{
-        @include typoH3( 20px, "arial", 400px, rgb(238, 238, 238));
+        @include typoH3( 20px, "arial", 400px, rgb(54, 54, 54));
         @include margins(10px , 10px, 0px, 0px);
     }
     h4{
-        @include typoH4( 10px, "arial", 400px, rgb(238, 238, 238));
+        @include typoH4( 10px, "arial", 400px, rgb(54, 54, 54));
         @include margins(0px , 30px, 0px, 0px);
+        color: rgba(156, 2, 2, 0.571);
     }
     h5{
-        @include typoH5( 15px, "arial", 400px, rgb(238, 238, 238));
+        @include typoH5( 15px, "arial", 400px, rgb(54, 54, 54));
     }
 }
