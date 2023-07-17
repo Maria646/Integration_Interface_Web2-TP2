@@ -68,7 +68,7 @@
   cursor: pointer;
 }
 
-.mr-4, .image__1 {
+.mr-4, .mr__1, .image__1 {
   margin-right: 1rem;
 }
 
@@ -149,4 +149,8 @@
 .border-black, .button__1 {
   --tw-border-opacity: 1;
   border-color: rgba(0, 0, 0, var(--tw-border-opacity));
+}
+
+.mr-4, .mr__1, .image__1 {
+  margin-right: 1rem;
 }/*# sourceMappingURL=nav.css.map */

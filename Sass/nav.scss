@@ -241,3 +241,15 @@
 .button__1 {
     @include button;
 }
+
+@mixin mr {
+    @extend .mr-4;
+}
+
+.mr-4 {
+  margin-right: 1rem;
+}
+
+.mr__1 {
+    @include mr;
+}
