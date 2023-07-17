@@ -1,11 +1,223 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style/css/style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+     <script src="https://cdn.tailwindcss.com"></script>
+    <title>Acceuil</title>
 </head>
 <body>
-    
+    <section class="banner">
+        <div class="banner__container  w-4/5 ml-auto mr-auto">
+            <div class="banner__grid  container-fuild grid grid-cols-6 items-center justify-center gap-20">
+              <div class="banner__containerText  col-span-6 sm:col-span-3 ">
+                  <h1 class="">Titre</h1>
+                  <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi non eaque saepe at alias reiciendis sit accusamus consequatur itaque fugit? Fuga aspernatur repellendus, natus impedit hic laudantium dolore minima asperiores!</p>
+                <div class="banner__containerButtons  container-fuild grid grid-cols-2">
+                    <button class="banner__buttonOne banner--buttonActive  col-span-2 sm:col-span-1 border-2">En savoir plus</button>
+                    <button class="banner__buttonTwo  col-span-2 sm:col-span-1 border-2 ">S'abonner</button>
+                </div>
+              </div>
+             <div class="banner__containerGalerie  col-span-6 sm:col-span-3">
+              <div class="max-w-2xl mx-auto">
+	            <div id="default-carousel" class="relative" data-carousel="slide">
+                 <div class="overflow-hidden relative h-56 rounded-lg sm:h-64 xl:h-80 2xl:h-96">
+            <!-- Item 1 -->
+                   <div class="banner__containerImageOne  hidden duration-700 ease-in-out" data-carousel-item>
+                    <span class="absolute top-1/2 left-1/2 text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 sm:text-3xl dark:text-gray-800">First Slide</span>
+                     <img src="./Images/dvdtounant.jpg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                   </div>
+            <!-- Item 2 -->
+                  <div class="banner__containerImageTwo  hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="./Images/coupleavecpopcorn.jpg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                  </div>
+            <!-- Item 3 -->
+                  <div class="banner__containerImageThree  hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="./Images/filmavenir.jpg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                  </div>
+            <!-- Item 4 -->
+                  <div class="banner__containerImageFour  hidden duration-700 ease-in-out" data-carousel-item>
+                   <img src="./Images/coupleavecpopcorn.jpg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                  </div>
+            <!-- Item 4 -->
+                  <div class="banner__containerImageFive  hidden duration-700 ease-in-out" data-carousel-item>
+                   <img src="./Images/centralcinema.jpg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                  </div>
+                 </div>
+        <!-- Slider indicators -->
+            <div class=" banner__containerGalerieButtons flex absolute bottom-5 left-1/2 z-30 space-x-3 -translate-x-1/2">
+              <button type="button" class="banner__galerieButtonOne w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+              <button type="button" class="banner__galerieButtonTwo w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+              <button type="button" class="banner__galerieButtonThree w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+              <button type="button" class="banner__galerieButtonSix w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+              <button type="button" class="banner__galerieButtonSeven w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+            </div>
+            </div>
+            <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="information">
+        <div class="information__container w-4/5 ml-auto mr-auto text-center"> 
+            <h2>Titre</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. expedita</p>
+            <input type="text" name="search" id="search" placeholder="Search">
+            <button>Click</button>
+            <div class="information__galerie container-fuild grid grid-cols-12 gap-4">
+                <div class="information__imageOne col-span-12 sm:col-span-4">
+                    <img src="./Images/coupleasiatiquecinema.jpg" alt="" class="rounded-lg">
+                </div>
+                <div class="information__imageTwo col-span-12 sm:col-span-4">
+                    <img src="./Images/bannercinema.jpg" alt="" class="rounded-lg">
+                </div>
+                <div class=" information__imageThree col-span-12 sm:col-span-4">
+                    <img src="./Images/coupleasiatiquecinema.jpg" alt="" class="rounded-lg">
+                </div>
+            </div>
+            <video class="information__video  rounded-lg mt-10 ml-auto mr-auto w-10/12" autoplay controls>
+                <source src="./Images/video1.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+
+    <section class="equipes">
+        <div class="equipes__container w-4/5 ml-auto mr-auto">
+            <h2>Titre</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque officiis expedita quia consequuntur delectus, nihil dolorem, natus saepe quidem harum maxime assumenda eius architecto. Accusamus animi esse eos quae beatae?</p>
+            <div class="equipes__gridCards container-fuild grid grid-cols-4 gap-4 ">
+                <div class="equipes__cardOne col-span-4 sm:col-span-2 xl:col-span-1">
+                    <img class="w-50 h-60 rounded-lg border-2" src="./Images/centralcinema.jpg" alt="">
+                    <h3>Titre</h3>
+                    <h4>Poste</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod quos doloremque, blanditiis facere atque minus, a perspiciatis dolorum odio vel fugiat autem consectetur dolore repudiandae iure architecto laudantium harum eveniet.</p>
+                    <div class="equipes__iconesReseauxSociaux">
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="equipes__cardTwo col-span-4 sm:col-span-2 xl:col-span-1">
+                    <img class="w-50 h-60 rounded-lg border-2" src="./Images/coupleasiatiquecinema.jpg" alt="">
+                    <h3>Titre</h3>
+                    <h4>Poste</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur magni esse minima officia quasi optio recusandae corrupti possimus accusamus vitae ab adipisci, in, voluptatibus harum pariatur, molestias perferendis mollitia architecto.</p>
+                    <div class="equipes__iconesReseauxSociaux">
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="equipes__cardThree col-span-4 sm:col-span-2 xl:col-span-1">
+                    <img class="w-50 h-60 rounded-lg border-2" src="./Images/coupleavecpopcorn.jpg" alt="">
+                    <h3>Titre</h3>
+                    <h4>Poste</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quasi consectetur repudiandae quidem nam libero! Expedita tempora quod aspernatur aliquid, earum dolores illum beatae nobis sint praesentium doloribus nam cupiditate?</p>
+                    <div class="equipes__iconesReseauxSociaux">
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="equipes__cardFour col-span-4 sm:col-span-2 xl:col-span-1">
+                    <img class="w-50 h-60 rounded-lg border-2" src="./Images/filleaucinema.jpg" alt="">
+                    <h3>Titre</h3>
+                    <h4>Poste</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati non ad aliquam vitae adipisci dignissimos! Praesentium aperiam laborum veritatis, nisi illo quibusdam asperiores, suscipit deleniti tempora dolorem debitis sapiente repudiandae!</p>
+                    <div class="equipes__iconesReseauxSociaux">
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="equipes__cardFive col-span-4 sm:col-span-2 xl:col-span-1">
+                    <img class="w-50 h-60 rounded-lg border-2" src="./Images/film.jpg" alt="">
+                    <h3>Titre</h3>
+                    <h4>Poste</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptates labore reprehenderit quibusdam repellat quisquam sit animi cum doloribus molestias optio nobis illum perspiciatis aliquam ipsam a qui, quam rerum.</p>
+                    <div class="equipes__iconesReseauxSociaux">
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="equipes__cardSix col-span-4 sm:col-span-2 xl:col-span-1">
+                    <img class="w-50 h-60 rounded-lg border-2" src="./Images/dvdtounant.jpg" alt="">
+                    <h3>Titre</h3>
+                    <h4>Poste</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet alias, neque voluptate reprehenderit repellendus officiis dolor doloremque debitis eius veniam! Quo ad labore adipisci architecto neque quis quia pariatur iusto.</p>
+                    <div class="equipes__iconesReseauxSociaux">
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="equipes__cardSeven col-span-4 sm:col-span-2 xl:col-span-1">
+                    <img class="w-50 h-60 rounded-lg border-2" src="./Images/filmavenir.jpg" alt="">
+                    <h3>Titre</h3>
+                    <h4>Poste</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima cum sint in, ipsam labore reprehenderit atque voluptate veniam placeat. Iusto eos illum alias aliquid perspiciatis temporibus, porro laborum tempore. Iste.</p>
+                    <div class="equipes__iconesReseauxSociaux">
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="equipes__cardHeight col-span-4 sm:col-span-2 xl:col-span-1">
+                    <img class="w-50 h-60 rounded-lg border-2" src="./Images/film.jpg" alt="">
+                    <h3>Titre</h3>
+                    <h4>Poste</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, at repudiandae obcaecati quidem eveniet quo, corporis fugit mollitia deserunt nobis tempora animi eius magnam. Error ducimus enim praesentium nemo atque.</p>
+                    <div class="equipes__iconesReseauxSociaux">
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="affichage">
+        <div class="affichage__container w-4/5 ml-auto mr-auto">
+            <div class="affichage__containerOne container-fuild grid grid-cols-2 gap-4 items-center justify-center">
+                <img class="col-span-2 md:col-span-1 rounded-lg" src="./Images/filmavenir.jpg" alt="">
+                <p class="col-span-2 md:col-span-1 ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam adipisci aliquam eaque aspernatur ut aperiam aut, sit doloremque nisi quas nulla quos repudiandae dolor earum natus quaerat fugit culpa minima!</p>
+            </div>
+            <div class="affichage__containerTwo container-fuild grid grid-cols-2 gap-4 items-center justify-center">
+                <p class="col-span-2 md:col-span-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam adipisci aliquam eaque aspernatur ut aperiam aut, sit doloremque nisi quas nulla quos repudiandae dolor earum natus quaerat fugit culpa minima!</p>
+                <img class="col-span-2 md:col-span-1 rounded-lg" src="./Images/filleaucinema.jpg" alt="">
+            </div>
+            <div class="affichage__containerThree container-fuild grid grid-cols-2 gap-4 items-center justify-center">
+                <img class="col-span-2 md:col-span-1 rounded-lg" src="./Images/filmavenir.jpg" alt="">
+                <p class="col-span-2 md:col-span-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam adipisci aliquam eaque aspernatur ut aperiam aut, sit doloremque nisi quas nulla quos repudiandae dolor earum natus quaerat fugit culpa minima!</p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__container w-11/12 ml-auto mr-auto text-center">
+            <div class="footer__containerNumero grid grid-cols-4">
+                <div class="col-span-4 md:col-span-1 flex mx-2">
+                    <i class="fas fa-phone-alt"></i>
+                    <h5>647-379-2384</h5>
+                </div>
+                <div class="footer__containerEmail col-span-4 md:col-span-1 flex mx-2">
+                    <i class="far fa-envelope"></i>
+                    <h5><a href="">diabymariama414@gmail.com</a></h5>
+                </div>
+                <div class="footer__containerAuteur col-span-4 md:col-span-1">
+                    <h5>Mariama Diaby & Didy Toure</h5>
+                </div>
+                <div class="footer__containerResauxSociaux col-span-4 md:col-span-1">
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div> 
+        </div>
+    </footer>
 </body>
 </html>
