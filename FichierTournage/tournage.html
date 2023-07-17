@@ -11,6 +11,8 @@
    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
    <!--Flowbite-->
    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.css"  rel="stylesheet" />
+   <!--stylesheet-->
+    <link rel="stylesheet" href="style.css">
     
 </head>
 <body>
@@ -18,7 +20,7 @@
    
 
    <!-- 1er section: Faits divers-->
-    <div class="container-fluid grid grid-cols-12 gap-20 mt-10 pr-20">
+    <div class="container__fluid grid grid-cols-12 gap-20 mt-10 pr-20">
   <!-- Colonne 1 -->
   <div class="bg-white col-span-12 md:col-span-7 flex justify-center items-center p-4">
     <img src="https://images.pexels.com/photos/66134/pexels-photo-66134.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="object-contain md:w-1/2 lg:w-40 xl:w-1/2">
@@ -27,25 +29,25 @@
   <!-- Colonne 2 -->
   <div class="col-span-12 md:col-span-5 h-100 my-20">
     <h1 class="text-5xl font-semibold">Faits divers</h1>
-    <p class="text-base mt-7">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit minus recusandae quia libero, non molestiae praesentium, quisquam, iste quo architecto assumenda incidunt quod cupiditate. Voluptate corporis sit iste porro cumque?</p>
+    <p class="text-base mt-7">Le tournage est le processus de capturer des séquences vidéo ou des images fixes pour la création d'un film, d'une émission de télévision, d'une publicité ou d'un autre contenu visuel. Pendant le tournage, l'équipe de production utilise des caméras, des lumières, des microphones et d'autres équipements pour enregistrer les performances des acteurs, les scènes, les décors et tout ce qui est nécessaire pour donner vie au projet.</p>
     <dl class="grid grid-cols-2 gap-4 mt-7">
       <div class="flex flex-col-reverse">
-        <dt class="leading-7 text-xs text-gray-400">Sold for</dt>
-        <dd class="text-2xl font-bold leading-9 tracking-tight text-black">44M</dd>
+        <dt class="texte__section1 text-xs text-gray-400">Nos ventes</dt>
+        <dd class="texte2__section1 text-2xl font-bold tracking-tight text-black">44M</dd>
       </div>
       <div class="flex flex-col-reverse">
-        <dt class="leading-7 text-xs text-gray-400">Sold for</dt>
-        <dd class="text-2xl font-bold leading-9 tracking-tight text-black">324B</dd>
+        <dt class="texte__section1 text-xs text-gray-400">Nos vues</dt>
+        <dd class="texte2__section1 text-2xl font-bold tracking-tight text-black">324B</dd>
       </div>
       <div class="flex flex-col-reverse">
-        <dt class="leading-7 text-xs text-gray-400">Sold for</dt>
-        <dd class="text-2xl font-bold leading-9 tracking-tight text-black">230K</dd>
+        <dt class="texte__section1 text-xs text-gray-400">Nos clients</dt>
+        <dd class="texte2__section1 text-2xl font-bold tracking-tight text-black">230K</dd>
       </div>
       <div class="flex flex-col-reverse">
-        <dt class="leading-7 text-xs text-gray-400">Sold for</dt>
-        <dd class="text-2xl font-bold leading-9 tracking-tight text-black">12</dd>
+        <dt class="texte__section1 text-xs text-gray-400">Nos prix</dt>
+        <dd class="texte2__section1 text-2xl font-bold tracking-tight text-black">12</dd>
       </div>
-      <button class="mt-7 p-3 w-2/3 md:w-1/3 bg-black text-white text-sm hover:bg-orange-200">Learn more</button>
+      <button class="button mt-7 p-3 w-2/3 md:w-1/3 ">Learn more</button>
     </dl>
   </div>
 </div>
@@ -54,17 +56,17 @@
     <!--2e section: Images-->
        <div class="container-fluid grid grid-cols-12">
         <!--Image 1-->
-        <div class="col-span-12 md:col-span-6 xl:col-span-4 p-8"><img src="https://img.buzzfeed.com/buzzfeed-static/static/2022-12/19/16/campaign_images/4c08c376d8d2/see-rare-behind-the-scenes-photos-from-titanic-3-4615-1671468718-22_dblbig.jpg?resize=1200:*" class="object-center w-full" alt=""></div>
+        <div class="col-span-12 md:col-span-6 xl:col-span-4 p-8"><img src="https://img.buzzfeed.com/buzzfeed-static/static/2022-12/19/16/campaign_images/4c08c376d8d2/see-rare-behind-the-scenes-photos-from-titanic-3-4615-1671468718-22_dblbig.jpg?resize=1200:*" class="image" alt=""></div>
         <!--Image 2-->
-        <div class="col-span-12 md:col-span-6 xl:col-span-4 p-8"><img src="https://img.buzzfeed.com/buzzfeed-static/static/2022-12/17/0/asset/3a5fc00a821c/sub-buzz-1068-1671237944-15.jpg?downsize=1600:*&output-format=auto&output-quality=auto" alt="" class="object-center w-full"></div>
+        <div class="col-span-12 md:col-span-6 xl:col-span-4 p-8"><img src="https://img.buzzfeed.com/buzzfeed-static/static/2022-12/17/0/asset/3a5fc00a821c/sub-buzz-1068-1671237944-15.jpg?downsize=1600:*&output-format=auto&output-quality=auto" alt="" class="image"></div>
         <!--Image 3-->
-        <div class="col-span-12 md:col-span-6 xl:col-span-4 p-8"><img src="https://img.buzzfeed.com/buzzfeed-static/static/2022-12/17/0/asset/c15cd2525d16/sub-buzz-1038-1671237423-1.jpg?downsize=1600:*&output-format=auto&output-quality=auto" class="object-center w-full" alt=""></div>
+        <div class="col-span-12 md:col-span-6 xl:col-span-4 p-8"><img src="https://img.buzzfeed.com/buzzfeed-static/static/2022-12/17/0/asset/c15cd2525d16/sub-buzz-1038-1671237423-1.jpg?downsize=1600:*&output-format=auto&output-quality=auto" class="image" alt=""></div>
         <!--Image 4-->
-        <div class="col-span-12 md:col-span-6 xl:col-span-4   p-8"><img src="https://people.com/thmb/WLEnr4UR_xr_VFOHMvl7YvELdoo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(749x0:751x2)/kate-winslet-leonardo-dicaprio-titanic-bts-121322-3-12635ccdde25459d91a1cf81af53b430.jpg" alt="" class="object-center w-full"></div>
+        <div class="col-span-12 md:col-span-6 xl:col-span-4   p-8"><img src="https://people.com/thmb/WLEnr4UR_xr_VFOHMvl7YvELdoo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(749x0:751x2)/kate-winslet-leonardo-dicaprio-titanic-bts-121322-3-12635ccdde25459d91a1cf81af53b430.jpg" alt="" class="image"></div>
         <!--Image 5-->
-        <div class="col-span-12 md:col-span-6 xl:col-span-4 p-8"><img src="https://img.buzzfeed.com/buzzfeed-static/static/2022-12/17/0/asset/4c08c376d8d2/sub-buzz-1107-1671236912-1.jpg?downsize=1600:*&output-format=auto&output-quality=auto" class="object-center w-full" alt=""></div>
+        <div class="col-span-12 md:col-span-6 xl:col-span-4 p-8"><img src="https://img.buzzfeed.com/buzzfeed-static/static/2022-12/17/0/asset/4c08c376d8d2/sub-buzz-1107-1671236912-1.jpg?downsize=1600:*&output-format=auto&output-quality=auto" class="image" alt=""></div>
         <!--Image 6-->
-        <div class="col-span-12 md:col-span-6 xl:col-span-4 p-8"><img src="https://img.buzzfeed.com/buzzfeed-static/static/2022-12/17/0/asset/bc957e106520/sub-buzz-973-1671237245-5.jpg?downsize=1600:*&output-format=auto&output-quality=auto" alt="" class="object-center w-full"></div>
+        <div class="col-span-12 md:col-span-6 xl:col-span-4 p-8"><img src="https://img.buzzfeed.com/buzzfeed-static/static/2022-12/17/0/asset/bc957e106520/sub-buzz-973-1671237245-5.jpg?downsize=1600:*&output-format=auto&output-quality=auto" alt="" class="image"></div>
     </div>
      <!--line-->
     <div class="w-full h-px bg-gray-300 my-8 "></div>

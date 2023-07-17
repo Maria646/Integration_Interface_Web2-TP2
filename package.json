@@ -1,0 +1,15 @@
+{
+  "name": "integration_interface_web2-tp2",
+  "version": "1.0.0",
+  "description": "Bienvenue sur notre projet d'intégration web réalisé par Didy T. et Mariama D. Ce projet met l'accent sur les aspects clés de l'intégration web, notamment :  -Intégration responsive à l’aide de grille -Composantes Tailwind CSS -Méthodologie BEM -SASS -L’accessibilité web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "postcss-import": "^15.1.0"
+  }
+}
