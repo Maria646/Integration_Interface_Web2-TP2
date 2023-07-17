@@ -1,27 +1,67 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tournage | Cinéma </title>
-
     <!--Tailwind-->
     <script src="https://cdn.tailwindcss.com"></script>
     <!--Fontawesome-->
-   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
-   <!--Flowbite-->
-   <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.css"  rel="stylesheet">
-   <!--stylesheet-->
-  <link rel="stylesheet" href="/style/css/tournage.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!--stylesheet-->
+    <link rel="stylesheet" href="/style/css/nav.css">
+    <link rel="stylesheet" href="style/css/style.css">
+    <link rel="stylesheet" href="/style/css/tournage.css">
+    <script src="https://cdn.tailwindcss.com"></script>
    
-
-    
+<title>Tournage | Cinéma </title>    
 </head>
-<body>
-<!--Navigation-->
-<!-- Fin de la navigation-->
-   
+<header>
+    <!--Navigation-->
+    <div class="container__fluid">
+        <nav class="nav__bar">
+            <div class="col-span-12 md:col-span-6 xl:col-span-3 max-auto">
+                <span class="txt__1">
+                    <img class="image__1" src="https://images.emojiterra.com/google/android-nougat/512px/1f3a5.png"
+                        alt="cinema">
+                    Cinema
+                </span>
+            </div>
+            <div class="col-span-12 xl:col-span-9">
+                <ul class="ul__1">
+                    <li class="mr__1">
+                        <a href="#" class="a__tag hover:bg-gray-200">
+                            <i class="fas fa-home mr-2"></i>
+                            Accueil
+                        </a>
+                    </li>
+                    <li class="mr__1">
+                        <a href="FichierTournage/tournage.html" class="a__tag hover:bg-gray-200">
+                            <i class="fas fa-cogs mr-2"></i>
+                            Tournage
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!--Hamburger menu-->
+            <div class="md:hidden">
+                <!-- Hamburger menu -->
+                <button class="button__1 hover:text-gray-500 hover:border-gray-500">
+                    <svg class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M2 5a1 1 0 011-1h14a1 1 0 110 2H3a1 1 0 01-1-1zm0 6a1 1 0 011-1h14a1 1 0 110 2H3a1 1 0 01-1-1zm0 6a1 1 0 011-1h14a1 1 0 110 2H3a1 1 0 01-1-1z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </div>
+    <!--Fin de la navigation-->
+</header>
 
+
+<body>
    <!-- 1er section: Faits divers-->
     <div class="container__fluid grid grid-cols-12 gap-20 mt-10 px-20">
   <!-- Colonne 1 -->
@@ -289,5 +329,27 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
 </body>
 <!--debut footer-->
+    <footer class="footer">
+        <div class="footer__container w-11/12 ml-auto mr-auto text-center">
+            <div class="footer__containerNumero grid grid-cols-4">
+                <div class="col-span-4 md:col-span-1 flex mx-2">
+                    <i class="fas fa-phone-alt"></i>
+                    <h5>647-379-2384</h5>
+                </div>
+                <div class="footer__containerEmail col-span-4 md:col-span-1 flex mx-2">
+                    <i class="far fa-envelope"></i>
+                    <h5><a href="">diabymariama414@gmail.com</a></h5>
+                </div>
+                <div class="footer__containerAuteur col-span-4 md:col-span-1">
+                    <h5>Mariama Diaby & Didy Toure</h5>
+                </div>
+                <div class="footer__containerResauxSociaux col-span-4 md:col-span-1">
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div> 
+        </div>
+    </footer>
 <!--fin footer-->
 </html>
