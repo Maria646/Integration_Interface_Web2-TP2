@@ -1,0 +1,156 @@
+/**  GENERAL **/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+}
+
+/*  NAVBAR  */
+.grid-cols-12, .nav__bar {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.gap-4, .nav__bar {
+  gap: 1rem;
+}
+
+.shadow-md, .nav__bar {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.flex, .button__1, .ul__1, .nav__bar {
+  display: flex;
+}
+
+.h-24, .nav__bar {
+  height: 6rem;
+}
+
+.items-center, .button__1, .a__tag, .ul__1, .nav__bar {
+  align-items: center;
+}
+
+.justify-between, .nav__bar {
+  justify-content: space-between;
+}
+
+.px-20, .nav__bar {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.text-lg, .txt__1 {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-black, .button__1, .a__tag, .txt__1 {
+  color: #000;
+}
+
+.uppercase, .txt__1 {
+  text-transform: uppercase;
+}
+
+.h-16, .image__1 {
+  height: 4rem;
+}
+
+.inline, .image__1 {
+  display: inline;
+}
+
+.cursor-pointer, .image__1 {
+  cursor: pointer;
+}
+
+.mr-4, .mr__1, .image__1 {
+  margin-right: 1rem;
+}
+
+.flex, .button__1, .ul__1, .nav__bar {
+  display: flex;
+}
+
+.justify-end, .ul__1 {
+  justify-content: flex-end;
+}
+
+.items-center, .button__1, .a__tag, .ul__1, .nav__bar {
+  align-items: center;
+}
+
+.block, .a__tag {
+  display: block;
+}
+
+.items-center, .button__1, .a__tag, .nav__bar, .ul__1 {
+  align-items: center;
+}
+
+.px-4, .a__tag {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-2, .button__1, .a__tag {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.text-black, .button__1, .a__tag, .txt__1 {
+  color: #000;
+}
+
+.hover\:bg-gray-200:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
+}
+
+.text-base, .a__tag {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.flex, .button__1, .nav__bar, .ul__1 {
+  display: flex;
+}
+
+.items-center, .button__1, .nav__bar, .ul__1, .a__tag {
+  align-items: center;
+}
+
+.px-3, .button__1 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.py-2, .button__1, .a__tag {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.border, .button__1 {
+  border-width: 1px;
+}
+
+.rounded, .button__1 {
+  border-radius: 0.25rem;
+}
+
+.text-black, .button__1, .txt__1, .a__tag {
+  color: #000;
+}
+
+.border-black, .button__1 {
+  --tw-border-opacity: 1;
+  border-color: rgba(0, 0, 0, var(--tw-border-opacity));
+}
+
+.mr-4, .mr__1, .image__1 {
+  margin-right: 1rem;
+}/*# sourceMappingURL=nav.css.map */
