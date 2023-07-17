@@ -1,60 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tournage | Cinema </title>
+    <title>Tournage | Cinéma </title>
 
     <!--Tailwind-->
     <script src="https://cdn.tailwindcss.com"></script>
     <!--Fontawesome-->
    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
    <!--Flowbite-->
-   <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.css"  rel="stylesheet" />
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.css"  rel="stylesheet">
    <!--stylesheet-->
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/style/css/tournage.css">
+   
+
     
 </head>
 <body>
-
+<!--Navigation-->
+<!-- Fin de la navigation-->
    
 
    <!-- 1er section: Faits divers-->
-    <div class="container__fluid grid grid-cols-12 gap-20 mt-10 pr-20">
+    <div class="container__fluid grid grid-cols-12 gap-20 mt-10 px-20">
   <!-- Colonne 1 -->
   <div class="bg-white col-span-12 md:col-span-7 flex justify-center items-center p-4">
-    <img src="https://images.pexels.com/photos/66134/pexels-photo-66134.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="object-contain md:w-1/2 lg:w-40 xl:w-1/2">
+  <img src="https://images.pexels.com/photos/66134/pexels-photo-66134.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="object-contain md:col-span-6 lg:col-span-6 xl:w-full" alt="image1">
   </div>
 
   <!-- Colonne 2 -->
   <div class="col-span-12 md:col-span-5 h-100 my-20">
     <h1 class="text-5xl font-semibold">Faits divers</h1>
     <p class="text-base mt-7">Le tournage est le processus de capturer des séquences vidéo ou des images fixes pour la création d'un film, d'une émission de télévision, d'une publicité ou d'un autre contenu visuel. Pendant le tournage, l'équipe de production utilise des caméras, des lumières, des microphones et d'autres équipements pour enregistrer les performances des acteurs, les scènes, les décors et tout ce qui est nécessaire pour donner vie au projet.</p>
-    <dl class="grid grid-cols-2 gap-4 mt-7">
-      <div class="flex flex-col-reverse">
-        <dt class="texte__section1 text-xs text-gray-400">Nos ventes</dt>
-        <dd class="texte2__section1 text-2xl font-bold tracking-tight text-black">44M</dd>
+    <dl class="grid__section">
+      <div class="section__flex">
+        <dt class="texte__section1">Nos ventes</dt>
+        <dd class="texte2__section1">44M</dd>
       </div>
-      <div class="flex flex-col-reverse">
-        <dt class="texte__section1 text-xs text-gray-400">Nos vues</dt>
-        <dd class="texte2__section1 text-2xl font-bold tracking-tight text-black">324B</dd>
+      <div class="section__flex">
+        <dt class="texte__section1">Nos vues</dt>
+        <dd class="texte2__section1">324B</dd>
       </div>
-      <div class="flex flex-col-reverse">
-        <dt class="texte__section1 text-xs text-gray-400">Nos clients</dt>
-        <dd class="texte2__section1 text-2xl font-bold tracking-tight text-black">230K</dd>
+      <div class="section__flex">
+        <dt class="texte__section1">Nos clients</dt>
+        <dd class="texte2__section1">230K</dd>
       </div>
-      <div class="flex flex-col-reverse">
-        <dt class="texte__section1 text-xs text-gray-400">Nos prix</dt>
-        <dd class="texte2__section1 text-2xl font-bold tracking-tight text-black">12</dd>
+      <div class="section__flex">
+        <dt class="texte__section1">Nos prix</dt>
+        <dd class="texte2__section1">12</dd>
       </div>
-      <button class="button mt-7 p-3 w-2/3 md:w-1/3 ">Learn more</button>
+      
     </dl>
+    <button class="button mt-7 p-3 w-1/3 md:w-1/3">Plus</button>
   </div>
 </div>
 
     <!--Fin de la 1er section: Faits divers-->
     <!--2e section: Images-->
-       <div class="container-fluid grid grid-cols-12">
+       <div class="container-fluid grid grid-cols-12 px-20">
         <!--Image 1-->
         <div class="col-span-12 md:col-span-6 xl:col-span-4 p-8"><img src="https://img.buzzfeed.com/buzzfeed-static/static/2022-12/19/16/campaign_images/4c08c376d8d2/see-rare-behind-the-scenes-photos-from-titanic-3-4615-1671468718-22_dblbig.jpg?resize=1200:*" class="image" alt=""></div>
         <!--Image 2-->
@@ -69,221 +73,218 @@
         <div class="col-span-12 md:col-span-6 xl:col-span-4 p-8"><img src="https://img.buzzfeed.com/buzzfeed-static/static/2022-12/17/0/asset/bc957e106520/sub-buzz-973-1671237245-5.jpg?downsize=1600:*&output-format=auto&output-quality=auto" alt="" class="image"></div>
     </div>
      <!--ligne-->
-    <div class="w-full h-px bg-gray-300 my-8 "></div>
+    <div class="w-full h-px bg-gray-300 my-8 px-20 "></div>
     <!--Fin de la 2e section: Images-->
 
     <!--3e section: Direction Artistiques-->
         <h2 class="font-bold text-2xl text-center">Presentation de la direction artistique</h2>
-    <p class="mt-10 text-sm text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, odio sapiente! Suscipit dolor provident modi, dolorum facere laborum! Mollitia, rem?</p>
-<div class="container-fluid grid grid-cols-12">
-<!--Colonne 1-->
-<div class="col-span-12 xl:col-span-6 p-6">
+        <p class="mt-10 text-sm text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, odio
+          sapiente! Suscipit dolor provident modi, dolorum facere laborum! Mollitia, rem?</p>
+<div class="container-fluid grid grid-cols-12 px-20">
+
+  <!--Colonne 1-->
+  <div class="col-span-12 xl:col-span-6 p-6">
+
+    <!--Accordeon #1-->
+    <div id="accordion__collapse" data-accordion="collapse">
+      <h2 id="accordion__collapse--heading1">
+        <button type="button" class="btn__accordeon" data-accordion-target="#accordion__collapse--body1"
+          aria-expanded="true" aria-controls="accordion__collapse--body1">
+          <span>Quelle est la vision artistique globale que vous souhaitez communiquer à travers ce projet ?</span>
+          <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M9 5 5 1 1 5" />
+          </svg>
+        </button>
+      </h2>
+
+      <div id="accordion__collapse--body1" class="hidden" aria-labelledby="accordion__collapse--heading1">
+        <div class="paragraphe__1">
+          <p class="texte__bleu">Nous souhaitons communiquer une vision artistique moderne et avant-gardiste qui
+            repousse les limites et suscite l'inspiration chez notre public.</p>
+        </div>
+      </div>
+
+      <!--Accordeon #2-->
+      <h2 id="accordion__collapse--heading2">
+        <button type="button" class="btn__accordeon" data-accordion-target="#accordion__collapse--body2"
+          aria-expanded="false" aria-controls="accordion__collapse--body2">
+          <span>Comment pouvez-vous décrire le style artistique que vous recherchez pour ce projet ?</span>
+          <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M9 5 5 1 1 5" />
+          </svg>
+        </button>
+      </h2>
+      <div id="accordion__collapse--body2" class="hidden" aria-labelledby="accordion__collapse--heading2">
+        <div class="paragraphe__1">
+
+          <p class="texte__bleu">Nous souhaitons communiquer une vision artistique moderne et avant-gardiste qui
+            repousse les limites et suscite l'inspiration chez notre public.</p>
+        </div>
+      </div>
+
+      <!--Accordeon #3-->
+      <h2 id="accordion__collapse--heading3">
+        <button type="button" class="btn__accordeon" data-accordion-target="#accordion__collapsebody3"
+          aria-expanded="false" aria-controls="accordion__collapsebody3">
+          <span>Quelles sont les principales inspirations ou références artistiques que vous souhaitez incorporer dans
+            ce projet ?</span>
+          <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M9 5 5 1 1 5" />
+          </svg>
+        </button>
+      </h2>
+      <div id="accordion__collapsebody3" class="hidden" aria-labelledby="accordion__collapse--heading3">
+        <div class="paragraphe__1">
+          <p class="texte__bleu">Nous nous inspirons de l'art abstrait du XXe siècle, notamment de l'œuvre de Piet
+            Mondrian et de Kazimir Malevich, pour créer un langage visuel audacieux et géométrique.</p>
+
+        </div>
+      </div>
 
 
-  <!--Accordeon #1-->
-  <div id="accordion-collapse" data-accordion="collapse">
-    <h2 id="accordion-collapse-heading-1">
-      <button type="button"
-        class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"
-        data-accordion-target="#accordion-collapse-body-1" aria-expanded="true"
-        aria-controls="accordion-collapse-body-1">
-        <span>What is Flowbite?</span>
-        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
-          xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-            d="M9 5 5 1 1 5" />
-        </svg>
-      </button>
-    </h2>
+      <!--Accordeon #4-->
 
-    <div id="accordion-collapse-body-1" class="hidden" aria-labelledby="accordion-collapse-heading-1">
-      <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
-        <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is an open-source library of interactive components
-          built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.</p>
-        <p class="text-gray-500 dark:text-gray-400">Check out this guide to learn how to <a
-            href="/docs/getting-started/introduction/" class="text-blue-600 dark:text-blue-500 hover:underline">get
-            started</a> and start developing websites even faster with components on top of Tailwind CSS.</p>
+      <h2 id="accordion__collapse--heading4">
+        <button type="button" class="btn__accordeon" data-accordion-target="#accordion__collapsebody4"
+          aria-expanded="false" aria-controls="accordion__collapsebody4">
+          <span>Comment voulez-vous que l'aspect visuel ou esthétique de ce projet reflète l'identité de votre marque ou
+            de votre entreprise ?</span>
+          <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M9 5 5 1 1 5" />
+          </svg>
+        </button>
+      </h2>
+      <div id="accordion__collapsebody4" class="hidden" aria-labelledby="accordion__collapse--heading4">
+        <div class="paragraphe__1">
+          <p class="texte__bleu">Nous voulons que l'aspect visuel du projet reflète notre identité de marque innovante
+            et progressiste, en utilisant des couleurs vives et des formes dynamiques pour exprimer notre esprit créatif
+            et notre originalité.</p>
+
+        </div>
+      </div>
+
+      <!--Accordeon #5-->
+      <h2 id="accordion__collapse--heading5">
+        <button type="button" class="btn__accordeon" data-accordion-target="#accordion__collapsebody5"
+          aria-expanded="false" aria-controls="accordion__collapsebody5">
+          <span>Quels éléments clés devez-vous prendre en compte pour créer une direction artistique cohérente avec le
+            message ou l'histoire que vous souhaitez raconter ?</span>
+          <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M9 5 5 1 1 5" />
+          </svg>
+        </button>
+      </h2>
+      <div id="accordion__collapsebody5" class="hidden" aria-labelledby="accordion__collapse--heading5">
+        <div class="paragraphe__1">
+          <p class="texte__bleu">Nous devons prendre en compte les valeurs fondamentales de notre entreprise, les
+            émotions que nous voulons susciter chez notre public cible, ainsi que l'histoire que nous voulons raconter à
+            travers nos visuels.</p>
+
+        </div>
       </div>
     </div>
 
-    <!--Accordeon #2-->
-    <h2 id="accordion-collapse-heading-2">
-      <button type="button"
-        class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"
-        data-accordion-target="#accordion-collapse-body-2" aria-expanded="false"
-        aria-controls="accordion-collapse-body-2">
-        <span>Is there a Figma file available?</span>
-        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
-          xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-            d="M9 5 5 1 1 5" />
-        </svg>
-      </button>
-    </h2>
-    <div id="accordion-collapse-body-2" class="hidden" aria-labelledby="accordion-collapse-heading-2">
-      <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
-        <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is first conceptualized and designed using the Figma
-          software so everything you see in the library has a design equivalent in our Figma file.</p>
-        <p class="text-gray-500 dark:text-gray-400">Check out the <a href="https://flowbite.com/figma/"
-            class="text-blue-600 dark:text-blue-500 hover:underline">Figma design system</a> based on the utility
-          classes
-          from Tailwind CSS and components from Flowbite.</p>
+
+
+  </div>
+
+  <!--Colonne 2-->
+
+  <div class="col-span-12 xl:col-span-6 p-6">
+    <div id="accordion__color" data-accordion="collapse"
+      data-active-classes="bg-blue-100 dark:bg-gray-800 text-blue-600 dark:text-white">
+      <!--Accordeon #6-->
+
+
+      <h2 id="accordion__color1--heading2">
+        <button type="button" class="btn__accordeon" data-accordion-target="#accordion__colorbody2"
+          aria-expanded="false" aria-controls="accordion__colorbody2">
+          <span>Quels sont les objectifs spécifiques que vous souhaitez atteindre grâce à la direction artistique de ce
+            projet ?</span>
+          <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M9 5 5 1 1 5" />
+          </svg>
+        </button>
+      </h2>
+      <div id="accordion__colorbody2" class="hidden" aria-labelledby="accordion__color1--heading2">
+        <div class="paragraphe__1">
+          <p class="texte__bleu">Nous devons prendre en compte les valeurs fondamentales de notre entreprise, les
+            émotions
+            que nous voulons susciter chez notre public cible, ainsi que l'histoire que nous voulons raconter à travers
+            nos visuels.</p>
+
+        </div>
       </div>
-    </div>
 
-    <!--Accordeon #3-->
-  <h2 id="accordion-collapse-heading-3">
-    <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-3">
-      <span>What are the differences between Flowbite and Tailwind UI?</span>
-      <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
-      </svg>
-    </button>
-  </h2>
-  <div id="accordion-collapse-body-3" class="hidden" aria-labelledby="accordion-collapse-heading-3">
-    <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
-      <p class="mb-2 text-gray-500 dark:text-gray-400">The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.</p>
-      <p class="mb-2 text-gray-500 dark:text-gray-400">However, we actually recommend using both Flowbite, Flowbite Pro, and even Tailwind UI as there is no technical reason stopping you from using the best of two worlds.</p>
-      <p class="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
-      <ul class="pl-5 text-gray-500 list-disc dark:text-gray-400">
-        <li><a href="https://flowbite.com/pro/" class="text-blue-600 dark:text-blue-500 hover:underline">Flowbite Pro</a></li>
-        <li><a href="https://tailwindui.com/" rel="nofollow" class="text-blue-600 dark:text-blue-500 hover:underline">Tailwind UI</a></li>
-      </ul>
-    </div>
-  </div>
+      <!--Accordeon #7-->
 
 
-    <!--Accordeon #4-->
-
-    
-  
-  <h2 id="accordion-collapse-heading-4">
-    <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-4" aria-expanded="false" aria-controls="accordion-collapse-body-4">
-      <span>How do I contribute to Flowbite?</span>
-      <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
-      </svg>
-    </button>
-  </h2>
-  <div id="accordion-collapse-body-4" class="hidden" aria-labelledby="accordion-collapse-heading-4">
-    <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
-      <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is an open-source project, and we welcome contributions from the community. You can contribute to Flowbite by submitting bug reports, feature requests, or even code contributions on our GitHub repository.</p>
-      <p class="text-gray-500 dark:text-gray-400">Check out our <a href="https://github.com/your-username/flowbite" class="text-blue-600 dark:text-blue-500 hover:underline">GitHub repository</a> for more information on how to get started with contributing to Flowbite.</p>
-    </div>
-  </div>
-
-    <!--Accordeon #5-->
-   <h2 id="accordion-collapse-heading-5">
-    <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-5" aria-expanded="false" aria-controls="accordion-collapse-body-5">
-      <span>How can I get support for Flowbite?</span>
-      <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
-      </svg>
-    </button>
-  </h2>
-  <div id="accordion-collapse-body-5" class="hidden" aria-labelledby="accordion-collapse-heading-5">
-    <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
-      <p class="mb-2 text-gray-500 dark:text-gray-400">If you need support or have any questions regarding Flowbite, you can reach out to our community through various channels. We have a dedicated forum where you can ask questions, share ideas, and get help from the Flowbite community.</p>
-      <p class="mb-2 text-gray-500 dark:text-gray-400">Visit our <a href="https://community.flowbite.com/" class="text-blue-600 dark:text-blue-500 hover:underline">community forum</a> to get support and engage with other Flowbite users.</p>
-      <p class="mb-2 text-gray-500 dark:text-gray-400">Additionally, you can also contact our support team directly via email at support@flowbite.com for any specific or urgent inquiries.</p>
-    </div>
-  </div>
-  </div>
-
-
-
-</div>
-
-<!--Colonne 2-->
-
-<div class="col-span-12 xl:col-span-6 p-6">
-  <!--Accordeon #6-->
-  <div id="accordion-color" data-accordion="collapse"
-    data-active-classes="bg-blue-100 dark:bg-gray-800 text-blue-600 dark:text-white">
-
-    <h2 id="accordion-color-heading-2">
-      <button type="button"
-        class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800"
-        data-accordion-target="#accordion-color-body-2" aria-expanded="false" aria-controls="accordion-color-body-2">
-        <span>Is there a Figma file available?</span>
-        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
-          xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-            d="M9 5 5 1 1 5" />
-        </svg>
-      </button>
-    </h2>
-    <div id="accordion-color-body-2" class="hidden" aria-labelledby="accordion-color-heading-2">
-      <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
-        <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is first conceptualized and designed using the Figma
-          software so everything you see in the library has a design equivalent in our Figma file.</p>
-        <p class="text-gray-500 dark:text-gray-400">Check out the <a href="https://flowbite.com/figma/"
-            class="text-blue-600 dark:text-blue-500 hover:underline">Figma design system</a> based on the utility
-          classes
-          from Tailwind CSS and components from Flowbite.</p>
+      <h2 id="accordion__colorheading3">
+        <button type="button" class="btn__accordeon" data-accordion-target="#accordion__colorbody3"
+          aria-expanded="false" aria-controls="accordion__colorbody3">
+          <span>Comment envisagez-vous la collaboration entre l'équipe artistique et les autres membres de l'équipe (par
+            exemple, le marketing, le développement, etc.) pour assurer une cohérence globale dans le projet ?</span>
+          <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M9 5 5 1 1 5" />
+          </svg>
+        </button>
+      </h2>
+      <div id="accordion__colorbody3" class="hidden" aria-labelledby="accordion__colorheading3">
+        <div class="paragraphe__1">
+          <p class="texte__bleu">Nous prévoyons d'organiser des réunions régulières entre l'équipe artistique, le
+            marketing et le développement pour aligner nos objectifs, partager des idées et assurer une cohérence entre
+            la
+            direction artistique, les stratégies de marketing et les fonctionnalités techniques du projet.</p>
+        </div>
       </div>
-    </div>
-  </div>
-  <!--Accordeon #7-->
-  <div id="accordion-color" data-accordion="collapse"
-    data-active-classes="bg-blue-100 dark:bg-gray-800 text-blue-600 dark:text-white">
 
-    <h2 id="accordion-color-heading-3">
-      <button type="button"
-        class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800"
-        data-accordion-target="#accordion-color-body-3" aria-expanded="false" aria-controls="accordion-color-body-3">
-        <span>What are the differences between Flowbite and Tailwind UI?</span>
-        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
-          xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-            d="M9 5 5 1 1 5" />
-        </svg>
-      </button>
-    </h2>
-    <div id="accordion-color-body-3" class="hidden" aria-labelledby="accordion-color-heading-3">
-      <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
-        <p class="mb-2 text-gray-500 dark:text-gray-400">The main difference is that the core components from Flowbite
-          are open-source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that
-          Flowbite relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.</p>
-        <p class="mb-2 text-gray-500 dark:text-gray-400">However, we actually recommend using both Flowbite, Flowbite
-          Pro, and even Tailwind UI as there is no technical reason stopping you from using the best of two worlds.</p>
-        <p class="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
-        <ul class="pl-5 text-gray-500 dark:text-gray-400">
-          <li><a href="https://flowbite.com/pro/" class="text-blue-600 dark:text-blue-500 hover:underline">Flowbite
-              Pro</a></li>
-          <li><a href="https://tailwindui.com/" rel="nofollow"
-              class="text-blue-600 dark:text-blue-500 hover:underline">Tailwind UI</a></li>
-        </ul>
+
+      <!--Accordeon #8-->
+
+      <h2 id="accordion__collapseheading8">
+        <button type="button" class="btn__accordeon" data-accordion-target="#accordion__collapsebody8"
+          aria-expanded="false" aria-controls="accordion__collapsebody8">
+          <span>Quels sont nos strategies?</span>
+          <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M9 5 5 1 1 5" />
+          </svg>
+        </button>
+      </h2>
+      <div id="accordion__collapsebody8" class="hidden" aria-labelledby="accordion__collapseheading8">
+        <div class="paragraphe__1">
+          <p class="texte__bleu">Nous souhaitons communiquer une vision artistique moderne et avant-gardiste qui
+            repousse
+            les limites et suscite l'inspiration chez notre public.</p>
+        </div>
       </div>
+
+
     </div>
-  </div>
-
-  <!--Accordeon #8-->
-  <h2 id="accordion-collapse-heading-5">
-    <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-5" aria-expanded="false" aria-controls="accordion-collapse-body-5">
-      <span>How can I get support for Flowbite?</span>
-      <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
-      </svg>
-    </button>
-  </h2>
-  <div id="accordion-collapse-body-5" class="hidden" aria-labelledby="accordion-collapse-heading-5">
-    <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
-      <p class="mb-2 text-gray-500 dark:text-gray-400">If you need support or have any questions regarding Flowbite, you can reach out to our community through various channels. We have a dedicated forum where you can ask questions, share ideas, and get help from the Flowbite community.</p>
-      <p class="mb-2 text-gray-500 dark:text-gray-400">Visit our <a href="https://community.flowbite.com/" class="text-blue-600 dark:text-blue-500 hover:underline">community forum</a> to get support and engage with other Flowbite users.</p>
-      <p class="mb-2 text-gray-500 dark:text-gray-400">Additionally, you can also contact our support team directly via email at support@flowbite.com for any specific or urgent inquiries.</p>
-    </div>
-  </div>
-  </div>
 
 
-  
+  </div>
 </div>
 
 
 
-    
-    <!--Fin de la 3e section: Direction Artistiques-->
+
+<!--Fin de la 3e section: Direction Artistiques-->
     <!--Flowbite-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
 </body>

@@ -1,1 +1,206 @@
-/*# sourceMappingURL=tournage.css.map */
+/**  GENERAL **/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+}
+
+/**  button **/
+.bg-black, .button {
+  background-color: #000;
+}
+
+.text-white, .button {
+  color: #fff;
+}
+
+.text-sm, .button {
+  font-size: 0.875rem;
+}
+
+.hover\:bg-orange-200:hover, .button:hover {
+  background-color: #FFA500;
+}
+
+.image .object-center {
+  -o-object-position: center;
+     object-position: center;
+}
+.image .w-full, .image .btn__accordeon {
+  width: 100%;
+}
+
+/**  paragraphe accordeon **/
+.p-5, .btn__accordeon, .paragraphe__1 {
+  padding: 1.25rem;
+}
+
+.border, .btn__accordeon, .paragraphe__1 {
+  border-width: 1px;
+}
+
+.border-b-0, .btn__accordeon, .paragraphe__1 {
+  border-bottom-width: 0px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .dark .dark\:border-gray-700, .dark .btn__accordeon, .paragraphe__1 .dark\:border-gray-700, .paragraphe__1 .btn__accordeon,
+:border-gray-700 .dark\:border-gray-700,
+:border-gray-700 .btn__accordeon {
+    --tw-border-opacity: 1;
+    border-color: rgb(55 65 81/var(--tw-border-opacity));
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .dark .dark\:border-gray-900, .paragraphe__1 .dark\:border-gray-900,
+:border-gray-900 .dark\:border-gray-900 {
+    --tw-border-opacity: 1;
+    border-color: rgb(17 24 39/var(--tw-border-opacity));
+  }
+}
+
+.bg-blue-500, .texte__bleu {
+  color: blue;
+}
+
+.flex, .section__flex, .btn__accordeon {
+  display: flex;
+}
+
+.items-center, .btn__accordeon {
+  align-items: center;
+}
+
+.justify-between, .btn__accordeon {
+  justify-content: space-between;
+}
+
+.w-full, .btn__accordeon {
+  width: 100%;
+}
+
+.p-5, .btn__accordeon, .paragraphe__1 {
+  padding: 1.25rem;
+}
+
+.font-medium, .btn__accordeon {
+  font-weight: 500;
+}
+
+.text-left, .btn__accordeon {
+  text-align: left;
+}
+
+.text-gray-500, .btn__accordeon {
+  --tw-text-opacity: 1;
+  color: rgba(156, 163, 175, var(--tw-text-opacity));
+}
+
+.border, .btn__accordeon, .paragraphe__1 {
+  border-width: 1px;
+}
+
+.border-b-0, .btn__accordeon, .paragraphe__1 {
+  border-bottom-width: 0px;
+}
+
+.border-gray-200, .btn__accordeon {
+  --tw-border-opacity: 1;
+  border-color: rgba(229, 231, 235, var(--tw-border-opacity));
+}
+
+.rounded-t-xl, .btn__accordeon {
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+}
+
+.focus\:ring-4:focus, .btn__accordeon:focus {
+  --tw-ring-opacity: 1;
+  box-shadow: 0 0 0 3px rgba(156, 163, 175, 0.5);
+  --tw-ring-color: rgba(156, 163, 175, var(--tw-ring-opacity));
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.focus\:ring-gray-200:focus, .btn__accordeon:focus {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgba(229, 231, 235, var(--tw-ring-opacity));
+}
+
+.dark\:focus\:ring-gray-800:focus, .btn__accordeon:focus {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgba(55, 65, 81, var(--tw-ring-opacity));
+}
+
+.dark\:border-gray-700, .btn__accordeon {
+  --tw-border-opacity: 1;
+  border-color: rgba(55, 65, 81, var(--tw-border-opacity));
+}
+
+.dark\:text-gray-400, .btn__accordeon {
+  --tw-text-opacity: 1;
+  color: rgba(156, 163, 175, var(--tw-text-opacity));
+}
+
+.hover\:bg-gray-100:hover, .btn__accordeon:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
+}
+
+.dark\:hover\:bg-gray-800:hover, .btn__accordeon:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(55, 65, 81, var(--tw-bg-opacity));
+}
+
+.flex, .section__flex, .btn__accordeon {
+  display: flex;
+}
+
+.flex-col-reverse, .section__flex {
+  flex-direction: column-reverse;
+}
+
+.text-xs, .texte__section1 {
+  font-size: 0.75rem;
+}
+
+.text-gray-400, .texte__section1 {
+  color: gray;
+}
+
+.text-2xl, .texte2__section1 {
+  font-size: 1.5rem;
+}
+
+.font-bold, .texte2__section1 {
+  font-weight: 700;
+}
+
+.tracking-tight, .texte2__section1 {
+  letter-spacing: -0.025em;
+}
+
+.text-black, .texte2__section1 {
+  --tw-text-opacity: 1;
+  color: black;
+}
+
+.grid, .grid__section {
+  display: grid;
+}
+
+.grid-cols-2, .grid__section {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.gap-4, .grid__section {
+  gap: 1rem;
+}
+
+.mt-7, .grid__section {
+  margin-top: 1.75rem;
+}/*# sourceMappingURL=tournage.css.map */
